@@ -9,14 +9,15 @@
 */
 
 .portfolio-item{
-	position: relative;
+	/* position: relative; */
+	/* -webkit-prespective: 1000px; */
 	-webkit-transform-style: preserve-3d;
 }
 
 .front, .back{
-	transition: all 1s;
+	transition: -webkit-transform 1s;
 	-webkit-backface-visibility: hidden;
-	
+
 }
 
 .front{
